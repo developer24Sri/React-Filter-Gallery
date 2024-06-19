@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IS:wght@100..400&display=swap');
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #282c34;
+}
+
+.header-title {
+    font-family: "Playwrite IS", cursive;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .header-title {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-title {
+        font-size: 24px;
+    }
+}

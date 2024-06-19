@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IS:wght@100..400&display=swap');
+
+.button-panel {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.styled-button {
+    background: linear-gradient(45deg, #ff6b6b, #f06595);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-family: "Playwrite IS", cursive;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.styled-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.styled-button:active {
+    transform: scale(0.95);
+}
+
+.styled-button:nth-child(2) {
+    background: linear-gradient(45deg, #6bffb8, #65f0b5);
+}
+
+.styled-button:nth-child(3) {
+    background: linear-gradient(45deg, #6b9eff, #6595f0);
+}
+
+.styled-button:nth-child(4) {
+    background: linear-gradient(45deg, #ff6bb8, #f06595);
+}
